@@ -10,7 +10,12 @@ Shorts Blocker is a Chrome extension created for personal use, designed to block
 - Easy to enable and disable
 - When I have time, I will add customisation and maybe a way to block shorts from various websites. 
 
-
+## Instalation 
+ - Go to Select More Tools and choose Extensions
+ - Turn on Developer Mode
+ - Use Load unpacked button and select folder with extension files
+ - Pin extension in browser extension panel
+   
 ## Usage
 
 1. Click on the Shorts Blocker icon in the Chrome toolbar.
