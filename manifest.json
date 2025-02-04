@@ -6,7 +6,7 @@
       "js": ["code.js"]
     }
   ],
-  "name": "Shorts Blocker",
+  "name": "Shorts alocker",
   "description": "extension that block for now only youtube shorts",
   "version": "1.0",
   "action": {

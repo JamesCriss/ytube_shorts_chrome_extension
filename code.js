@@ -33,23 +33,22 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-//function for MuationObserver to only execute hideShorts once per 100ms 
+//function for MutationObserver to only execute hideShorts once per 100ms 
 let isRunning = false;
-const callback = (mutationList, observer) => {
-    function myFunction() {
+function callback(mutationList, observer){
         if (isRunning) return; 
     
         isRunning = true; 
     
-        hideShorts
+        hideShorts();
     
         setTimeout(() => {
             isRunning = false;
-        }, 100);
-    }
+        }, 1000);
+    
   };
 
 
 const observer = new MutationObserver(callback);
 observer.observe(document.body, { childList: true, subtree: true });
-setInterval(hideShorts, 3000);
+
