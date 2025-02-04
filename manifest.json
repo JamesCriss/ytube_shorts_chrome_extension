@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["code.js"]
+    }
+  ],
+  "name": "Shorts Blocker",
+  "description": "extension that block for now only youtube shorts",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
